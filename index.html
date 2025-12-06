@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Quote Saver</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <div class="container">
+        <h1>📝 Mini Quote Saver</h1>
+        <p class="subtitle">✨ Save your favorite quotes forever! ✨</p>
+        <div class="input-section">
+            <input 
+                type="text" 
+                id="quoteInput" 
+                placeholder="Enter a quote..." 
+                maxlength="200"
+            >
+            <button id="addBtn">Add Quote</button>
+        </div>
+        <div class="quotes-header">
+            <h2>My Quotes</h2>
+            <span class="quote-count" id="quoteCount">0</span>
+        </div>
+        <ul id="quotesList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
